@@ -1,0 +1,30 @@
+{
+  "name": "wqcmd",
+  "version": "1.0.4",
+  "description": "scaffold for nodex",
+  "main": "index.js",
+  "bin": {
+    "wqcmd": "./bin/wqcmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodex",
+    "wqcmd",
+    "scaffold"
+  ],
+  "author": "huangjing10",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "compressing": "^1.4.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.3.1",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.4.0",
+    "ssh2-sftp-client": "^2.5.0"
+  }
+}
